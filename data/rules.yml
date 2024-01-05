@@ -1,0 +1,48 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet back
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Bye back
+  steps:
+  - intent: bye
+  - action: utter_bye
+
+- rule: Help
+  steps:
+  - intent: help_general
+  - action: utter_help_general
+
+- rule: List latest news
+  steps:
+  - intent: latest_news
+  - action: utter_latest_news
+
+- rule: Search for news
+  steps:
+  - intent: search
+  - action: utter_search
+
+- rule: Decrease volume
+  steps:
+  - intent: decrease_volume
+  - action: utter_decrease_volume
+
+- rule: Increase volume
+  steps:
+  - intent: increase_volume
+  - action: utter_increase_volume
+
+- rule: Decrease reading speed
+  steps:
+  - intent: decrease_speed
+  - action: utter_decrease_speed
+
+- rule: Increase reading speed
+  steps:
+  - intent: increase_speed
+  - action: utter_increase_speed

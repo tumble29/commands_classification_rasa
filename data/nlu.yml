@@ -1,0 +1,142 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - chào buổi sáng
+    - chào 
+    - hai
+    - hi
+    - hello
+    - he lô
+    - chào bạn
+    - chào cậu
+    - chào bạn có khỏe không?
+    - có ai ở đó không?
+    - cho mình hỏi
+    - có ai online không?
+    - chào nhé
+
+- intent: bye
+  examples: |
+    - tạm biệt
+    - bye
+    - bai
+    - thôi không đọc báo nữa
+    - dừng lại
+    - chào nhé
+    - hẹn gặp lại
+    - tôi sẽ quay lại sau
+    - nói chuyện với bạn sau
+    - đủ rồi
+
+- intent: help_general
+  examples: |
+    - bạn làm được gì
+    - giờ làm gì giờ
+    - giúp tôi với
+    - bạn làm được hành động nào
+    - tôi yêu cầu bạn làm được gì
+    - bạn có thể giúp tôi như thế nào
+    - cần bạn giúp đỡ về điều gì đó
+    - tôi muốn biết bạn có khả năng làm gì
+    - giúp tôi với một số thông tin
+    - có gì đặc biệt về khả năng của bạn không
+    - nói cho tôi biết về chức năng của bạn
+    - bạn có thể làm việc gì cho tôi
+    - tôi cần một số hỗ trợ
+    - tôi muốn biết cách sử dụng bạn
+    - giúp tôi giải quyết một vấn đề
+
+- intent: latest_news
+  examples: |
+    - thời sự thú vị
+    - có gì mới không
+    - tôi muốn xem tin tức mới nhất
+    - có tin gì hay không
+    - tin tức mới nhất là gì
+    - cho tôi biết tin mới nhất
+    - bản tin mới nhất
+    - tôi muốn cập nhật tin tức
+    - tin nóng nhất hiện nay là gì
+    - có tin hot không
+    - những tin tức mới nhất
+    - cho tôi xem tin mới
+    - tôi muốn mở trang tin
+    - mở trang tin tức nào đó
+    - hiện tin tức mới
+    - xem tin nóng nhất
+    - đưa tôi đến trang tin tức
+    - thời sự gần đây
+    - xem thời sự
+    - thời sự có gì mới
+
+- intent: search
+  examples: |
+    - tìm kiếm thông tin về [vụ tai nạn xe buýt gần đây]{"entity": "search_object", "value": "vụ tai nạn xe buýt gần đây"}
+    - có tin gì về [tổng thống mới của Mỹ chưa]{"entity": "search_object", "value": "tổng thống mới của Mỹ chưa"}
+    - tin tức [khoa học]{"entity": "search_object", "value": "khoa học"} mới nhất
+    - tìm kiếm thông tin về [dự án năng lượng tái tạo]{"entity": "search_object", "value": "dự án năng lượng tái tạo"}
+    - có gì mới về [thời trang]{"entity": "search_object", "value": "thời trang"}
+    - tin tức về [covid-19]{"entity": "search_object", "value": "covid-19"} trong ngày
+    - cho tôi biết về [sự kiện thể thao nổi bật]{"entity": "search_object", "value": "sự kiện thể thao nổi bật"}- tin tức về [ngôi sao âm nhạc]{"entity": "search_object", "value": "ngôi sao âm nhạc"} hôm nay
+    - tìm hiểu về [các bước nấu ăn nhanh]{"entity": "search_object", "value": "các bước nấu ăn nhanh"}
+    - có tin tức mới về [động đất]{"entity": "search_object", "value": "động đất"} không
+    - thông tin về [diễn viên hài]{"entity": "search_object", "value": "diễn viên hài"} nổi tiếng
+    - tìm kiếm [hình ảnh thiên nhiên đẹp]{"entity": "search_object", "value": "hình ảnh thiên nhiên đẹp"}
+    - có gì mới về [thời trang nam]{"entity": "search_object", "value": "thời trang nam"} mùa hè
+    - tin tức về [động vật quý hiếm]{"entity": "search_object", "value": "động vật quý hiếm"} 2023
+    - tìm hiểu về [văn hóa ẩm thực]{"entity": "search_object", "value": "văn hóa ẩm thực"} Việt Nam
+    - tìm kiếm [vụ cháy rừng gần đây]{"entity": "search_object", "value": "vụ cháy rừng gần đây"}
+    - có [kỹ thuật số]{"entity": "search_object", "value": "kỹ thuật số"} mới không?
+    - tìm hiểu [cách làm các bước nấu ăn nhanh]{"entity": "search_object", "value": "cách làm các bước nấu ăn nhanh"}
+    - thông tin [diễn viên hài nổi tiếng]{"entity": "search_object", "value": "diễn viên hài nổi tiếng"}
+    - [hình ảnh thiên nhiên đẹp]{"entity": "search_object", "value": "hình ảnh thiên nhiên đẹp"} tìm kiếm
+    - có [tin tức về động đât]{"entity": "search_object", "value": "tin tức về động đât"} không?
+    - tin tức [thời trang nam]{"entity": "search_object", "value": "thời trang nam"} mùa hè mới nhất
+    - [động vật quý hiếm năm 2023]{"entity": "search_object", "value": "động vật quý hiếm năm 2023"} tin tức
+    - [văn hóa ẩm thực Việt Nam]{"entity": "search_object", "value": "văn hóa ẩm thực Việt Nam"} khám phá
+
+- intent: increase_volume
+  examples: |
+    - [tăng]{"entity": "volume_direction", "value": "increase"} âm lượng
+    - [tăng]{"entity": "volume_direction", "value": "increase"} âm thanh
+    - [tăng]{"entity": "volume_direction", "value": "increase"} âm
+    - [tăng]{"entity": "volume_direction", "value": "increase"} volume
+
+    - đặt âm lượng lên [cao]{"entity": "volume_direction", "value": "increase"}
+
+- intent: decrease_volume
+  examples: |
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm lượng
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm thanh
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} volume
+    - giảm âm thanh xuống [giảm]{"entity": "volume_direction", "value": "decrease"}
+
+- intent: increase_speed
+  examples: |
+    - [tăng]{"entity": "speed_direction", "value": "increase"} tốc độ đọc
+    - [tăng]{"entity": "speed_direction", "value": "increase"} tốc độ
+    - đọc [nhanh]{"entity": "speed_direction", "value": "increase"} hơn
+    - đặt tốc độ đọc [lên cao]{"entity": "speed_direction", "value": "increase"}
+    - đọc chậm quá vậy
+    - độc nhanh lên
+
+- intent: decrease_speed
+  examples: |
+    - [giảm]{"entity": "speed_direction", "value": "decrease"} tốc độ đọc
+    - [giảm]{"entity": "speed_direction", "value": "decrease"} tốc độ
+    - đọc [chậm]{"entity": "speed_direction", "value": "decrease"} hơn
+    - giảm tốc độ đọc [xuống thấp]{"entity": "speed_direction", "value": "decrease"}
+    - đọc nhanh quá vậy
+    - đọc từ từ thôi
+    - độc chậm thôi
+# - intent: complaint/volume
+#     - to tiếng lên 
+#     - giảm nhỏ tiếng giúp
+#     - ồn ào quá
+#     - ồn quá
+#     - nhỏ quá không nghe gì cả
+#     - không nghe gì hết

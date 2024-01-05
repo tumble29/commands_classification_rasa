@@ -1,0 +1,47 @@
+version: "3.1"
+
+intents:
+  - greet
+  - bye
+  - help_general
+  - latest_news
+  - increase_volume
+  - decrease_volume
+  - increase_speed
+  - decrease_speed
+  - search
+
+entities:
+  - search_object
+  - volume_direction
+  - speed_direction
+
+responses:
+  utter_greet:
+  - text: "greet"
+
+  utter_bye:
+  - text: "bye"
+
+  utter_help_general:
+  - text: "Bạn có thể hỏi tôi tin tức thời sự mới nhất hiện nay.\nHay là tim kiếm về thông tin bạn muốn.\nĐể biết thêm về trợ giúp tùy chỉnh, hãy hỏi thêm về tùy chỉnh."
+
+  utter_latest_news:
+  - text: "latest news"
+
+  utter_search:
+  - text: "searching for"
+
+
+  utter_increase_volume:
+  - text: "Âm lượng sẽ được tăng"
+  utter_decrease_volume:
+  - text: "Âm lượng sẽ được giảm"
+  utter_increase_speed:
+  - text: "Tốc độ đọc sẽ được tăng"
+  utter_decrease_speed:
+  - text: "Tốc độ đọc sẽ được giảm"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
