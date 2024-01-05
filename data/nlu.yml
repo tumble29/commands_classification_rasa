@@ -25,7 +25,7 @@ nlu:
     - bai
     - thôi không đọc báo nữa
     - dừng lại
-    - chào nhé
+    - tạm biệt nhé
     - hẹn gặp lại
     - tôi sẽ quay lại sau
     - nói chuyện với bạn sau
@@ -104,7 +104,6 @@ nlu:
     - [tăng]{"entity": "volume_direction", "value": "increase"} âm thanh
     - [tăng]{"entity": "volume_direction", "value": "increase"} âm
     - [tăng]{"entity": "volume_direction", "value": "increase"} volume
-
     - đặt âm lượng lên [cao]{"entity": "volume_direction", "value": "increase"}
 
 - intent: decrease_volume

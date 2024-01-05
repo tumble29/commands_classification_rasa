@@ -18,16 +18,16 @@ entities:
 
 responses:
   utter_greet:
-  - text: "greet"
+  - text: "Xin chào bạn"
 
   utter_bye:
-  - text: "bye"
+  - text: "Tạm biệt bạn"
 
   utter_help_general:
   - text: "Bạn có thể hỏi tôi tin tức thời sự mới nhất hiện nay.\nHay là tim kiếm về thông tin bạn muốn.\nĐể biết thêm về trợ giúp tùy chỉnh, hãy hỏi thêm về tùy chỉnh."
 
   utter_latest_news:
-  - text: "latest news"
+  - text: "Tôi sẽ tìm kiếm thông tin thời sự mới nhấts"
 
   utter_search:
   - text: "searching for"
