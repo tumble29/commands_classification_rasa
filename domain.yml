@@ -13,8 +13,6 @@ intents:
 
 entities:
   - search_object
-  - volume_direction
-  - speed_direction
 
 responses:
   utter_greet:
@@ -27,7 +25,7 @@ responses:
   - text: "Bạn có thể hỏi tôi tin tức thời sự mới nhất hiện nay.\nHay là tim kiếm về thông tin bạn muốn.\nĐể biết thêm về trợ giúp tùy chỉnh, hãy hỏi thêm về tùy chỉnh."
 
   utter_latest_news:
-  - text: "Tôi sẽ tìm kiếm thông tin thời sự mới nhấts"
+  - text: "Tôi sẽ tìm kiếm thông tin thời sự mới nhất"
 
   utter_search:
   - text: "searching for"

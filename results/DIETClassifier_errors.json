@@ -1,0 +1,429 @@
+[
+  {
+    "text": "tìm kiếm thông tin về vụ tai nạn xe buýt gần đây",
+    "entities": [
+      {
+        "start": 22,
+        "end": 48,
+        "value": "vụ tai nạn xe buýt gần đây",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "có gì mới về thời trang",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "thời trang",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.8184957504272461,
+        "value": "thời",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho tôi biết về sự kiện thể thao nổi bật- tin tức về ngôi sao âm nhạc hôm nay",
+    "entities": [
+      {
+        "start": 16,
+        "end": 40,
+        "value": "sự kiện thể thao nổi bật",
+        "entity": "search_object"
+      },
+      {
+        "start": 53,
+        "end": 69,
+        "value": "ngôi sao âm nhạc",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tìm kiếm vụ cháy rừng gần đây",
+    "entities": [
+      {
+        "start": 9,
+        "end": 29,
+        "value": "vụ cháy rừng gần đây",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "có tin tức về động đât không?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 22,
+        "value": "tin tức về động đât",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn mở trang tin",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.49654802680015564,
+        "value": "trang",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tìm kiếm thông tin về dự án năng lượng tái tạo",
+    "entities": [
+      {
+        "start": 22,
+        "end": 46,
+        "value": "dự án năng lượng tái tạo",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thông tin về diễn viên hài nổi tiếng",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "diễn viên hài",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 13,
+        "end": 36,
+        "confidence_entity": 0.9985297918319702,
+        "value": "diễn viên hài nổi tiếng",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tìm hiểu về văn hóa ẩm thực Việt Nam",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "value": "văn hóa ẩm thực",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 12,
+        "end": 36,
+        "confidence_entity": 0.9946410655975342,
+        "value": "văn hóa ẩm thực Việt Nam",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tìm hiểu cách làm các bước nấu ăn nhanh",
+    "entities": [
+      {
+        "start": 9,
+        "end": 39,
+        "value": "cách làm các bước nấu ăn nhanh",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 18,
+        "end": 39,
+        "confidence_entity": 0.9900434017181396,
+        "value": "các bước nấu ăn nhanh",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn biết cách sử dụng bạn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9967420697212219,
+        "value": "cách",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "search_object",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.8055508732795715,
+        "value": "dụng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thời sự gần đây",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.9975766539573669,
+        "value": "gần đây",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "có tin gì về tổng thống mới của Mỹ chưa",
+    "entities": [
+      {
+        "start": 13,
+        "end": 39,
+        "value": "tổng thống mới của Mỹ chưa",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "động vật quý hiếm năm 2023 tin tức",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "động vật quý hiếm năm 2023",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 5,
+        "end": 21,
+        "confidence_entity": 0.8006422519683838,
+        "value": "vật quý hiếm năm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bạn làm được hành động nào",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.8585522770881653,
+        "value": "động",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "có tin tức mới về động đất không",
+    "entities": [
+      {
+        "start": 18,
+        "end": 26,
+        "value": "động đất",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.7875241041183472,
+        "value": "động",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "có kỹ thuật số mới không?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 14,
+        "value": "kỹ thuật số",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "thông tin diễn viên hài nổi tiếng",
+    "entities": [
+      {
+        "start": 10,
+        "end": 33,
+        "value": "diễn viên hài nổi tiếng",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 10,
+        "end": 23,
+        "confidence_entity": 0.9904516935348511,
+        "value": "diễn viên hài",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "có gì đặc biệt về khả năng của bạn không",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.9976739287376404,
+        "value": "năng của",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nói cho tôi biết về chức năng của bạn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9898780584335327,
+        "value": "năng của",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tin tức khoa học mới nhất",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "khoa học",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tin tức về covid-19 trong ngày",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "covid-19",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 11,
+        "end": 30,
+        "confidence_entity": 0.5417988300323486,
+        "value": "covid-19 trong ngày",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tin tức về động vật quý hiếm 2023",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "value": "động vật quý hiếm",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 11,
+        "end": 33,
+        "confidence_entity": 0.6844842433929443,
+        "value": "động vật quý hiếm 2023",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "văn hóa ẩm thực Việt Nam khám phá",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "văn hóa ẩm thực Việt Nam",
+        "entity": "search_object"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "search_object",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.9374433755874634,
+        "value": "văn hóa ẩm thực",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "search_object",
+        "start": 30,
+        "end": 33,
+        "confidence_entity": 0.7868473529815674,
+        "value": "phá",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

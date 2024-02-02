@@ -1,0 +1,52 @@
+version: "3.1"
+nlu:
+- intent: increase_volume
+  examples: |
+    - [tăng]{"entity": "volume_direction", "value": "increase"} volume
+- intent: decrease_volume
+  examples: |
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} volume
+- intent: increase_speed
+  examples: |
+    - [tăng]{"entity": "speed_direction", "value": "increase"} tốc độ đọc
+    - đọc chậm quá vậy
+- intent: decrease_speed
+  examples: |
+    - đọc nhanh quá vậy
+- intent: bye
+  examples: |
+    - nói chuyện với bạn sau
+    - thôi không đọc báo nữa
+- intent: greet
+  examples: |
+    - hi
+    - hai
+    - chào bạn có khỏe không?
+- intent: help_general
+  examples: |
+    - tôi muốn biết bạn có khả năng làm gì
+    - có gì đặc biệt về khả năng của bạn không
+    - nói cho tôi biết về chức năng của bạn
+- intent: latest_news
+  examples: |
+    - tin tức mới nhất là gì
+    - có gì mới không
+    - có tin gì hay không
+    - tôi muốn mở trang tin
+- intent: search
+  examples: |
+    - tin tức [thời trang nam](search_object) mùa hè mới nhất
+    - [hình ảnh thiên nhiên đẹp](search_object) tìm kiếm
+    - thông tin [diễn viên hài nổi tiếng](search_object)
+    - [văn hóa ẩm thực Việt Nam](search_object) khám phá
+- synonym: increase
+  examples: |
+    - tăng
+    - cao
+    - nhanh
+    - lên cao
+- synonym: decrease
+  examples: |
+    - giảm
+    - chậm
+    - xuống thấp

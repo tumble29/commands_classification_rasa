@@ -1,0 +1,154 @@
+[
+  {
+    "text": "hai",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.6844190359115601
+    }
+  },
+  {
+    "text": "thôi không đọc báo nữa",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "decrease_speed",
+      "confidence": 0.7827780246734619
+    }
+  },
+  {
+    "text": "đưa tôi đến trang tin tức",
+    "intent": "latest_news",
+    "intent_prediction": {
+      "name": "search",
+      "confidence": 0.7906358242034912
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.972274661064148
+    }
+  },
+  {
+    "text": "mở trang tin tức nào đó",
+    "intent": "latest_news",
+    "intent_prediction": {
+      "name": "search",
+      "confidence": 0.9585393071174622
+    }
+  },
+  {
+    "text": "đặt âm lượng lên cao",
+    "intent": "increase_volume",
+    "intent_prediction": {
+      "name": "increase_speed",
+      "confidence": 0.7938583493232727
+    }
+  },
+  {
+    "text": "tăng tốc độ",
+    "intent": "increase_speed",
+    "intent_prediction": {
+      "name": "decrease_speed",
+      "confidence": 0.47728443145751953
+    }
+  },
+  {
+    "text": "thời sự gần đây",
+    "intent": "latest_news",
+    "intent_prediction": {
+      "name": "search",
+      "confidence": 0.6026881337165833
+    }
+  },
+  {
+    "text": "có tin gì về tổng thống mới của Mỹ chưa",
+    "intent": "search",
+    "intent_prediction": {
+      "name": "latest_news",
+      "confidence": 0.49200981855392456
+    }
+  },
+  {
+    "text": "có ai ở đó không?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "latest_news",
+      "confidence": 0.7083894610404968
+    }
+  },
+  {
+    "text": "bai",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9652084112167358
+    }
+  },
+  {
+    "text": "có kỹ thuật số mới không?",
+    "intent": "search",
+    "intent_prediction": {
+      "name": "latest_news",
+      "confidence": 0.5624407529830933
+    }
+  },
+  {
+    "text": "tin tức thời trang nam mùa hè mới nhất",
+    "intent": "search",
+    "intent_prediction": {
+      "name": "latest_news",
+      "confidence": 0.5033287405967712
+    }
+  },
+  {
+    "text": "tôi sẽ quay lại sau",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "latest_news",
+      "confidence": 0.3241425156593323
+    }
+  },
+  {
+    "text": "nói chuyện với bạn sau",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "help_general",
+      "confidence": 0.8742576837539673
+    }
+  },
+  {
+    "text": "có gì đặc biệt về khả năng của bạn không",
+    "intent": "help_general",
+    "intent_prediction": {
+      "name": "search",
+      "confidence": 0.8879925608634949
+    }
+  },
+  {
+    "text": "nói cho tôi biết về chức năng của bạn",
+    "intent": "help_general",
+    "intent_prediction": {
+      "name": "search",
+      "confidence": 0.7354007363319397
+    }
+  },
+  {
+    "text": "tin tức khoa học mới nhất",
+    "intent": "search",
+    "intent_prediction": {
+      "name": "latest_news",
+      "confidence": 0.9978356957435608
+    }
+  },
+  {
+    "text": "tăng âm",
+    "intent": "increase_volume",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.4551038444042206
+    }
+  }
+]

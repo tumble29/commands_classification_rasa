@@ -100,36 +100,34 @@ nlu:
 
 - intent: increase_volume
   examples: |
-    - [tăng]{"entity": "volume_direction", "value": "increase"} âm lượng
-    - [tăng]{"entity": "volume_direction", "value": "increase"} âm thanh
-    - [tăng]{"entity": "volume_direction", "value": "increase"} âm
-    - [tăng]{"entity": "volume_direction", "value": "increase"} volume
-    - đặt âm lượng lên [cao]{"entity": "volume_direction", "value": "increase"}
+    - tăng âm lượng
+    - tăng âm thanh
+    - tăng âm
+    - tăng volume
+    - đặt âm lượng lên cao
 
 - intent: decrease_volume
   examples: |
-    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm lượng
-    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm thanh
-    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm
-    - [giảm]{"entity": "volume_direction", "value": "decrease"} volume
-    - giảm âm thanh xuống [giảm]{"entity": "volume_direction", "value": "decrease"}
+    - giảm âm lượng
+    - giảm âm thanh
+    - giảm âm
+    - giảm volume
+    - giảm âm thanh xuống
 
 - intent: increase_speed
   examples: |
-    - [tăng]{"entity": "speed_direction", "value": "increase"} tốc độ đọc
-    - [tăng]{"entity": "speed_direction", "value": "increase"} tốc độ
-    - đọc [nhanh]{"entity": "speed_direction", "value": "increase"} hơn
-    - đặt tốc độ đọc [lên cao]{"entity": "speed_direction", "value": "increase"}
-    - đọc chậm quá vậy
+    - tăng tốc độ đọc
+    - tăng tốc độ
+    - đọc nhanh hơn
+    - đặt tốc độ đọc lên cao
     - độc nhanh lên
 
 - intent: decrease_speed
   examples: |
-    - [giảm]{"entity": "speed_direction", "value": "decrease"} tốc độ đọc
-    - [giảm]{"entity": "speed_direction", "value": "decrease"} tốc độ
-    - đọc [chậm]{"entity": "speed_direction", "value": "decrease"} hơn
-    - giảm tốc độ đọc [xuống thấp]{"entity": "speed_direction", "value": "decrease"}
-    - đọc nhanh quá vậy
+    - giảm tốc độ đọc
+    - giảm tốc độ
+    - đọc chậm hơn
+    - giảm tốc độ đọc xuống thấp
     - đọc từ từ thôi
     - độc chậm thôi
 # - intent: complaint/volume

@@ -1,0 +1,115 @@
+version: "3.1"
+nlu:
+- intent: increase_volume
+  examples: |
+    - [tăng]{"entity": "volume_direction", "value": "increase"} âm thanh
+    - [tăng]{"entity": "volume_direction", "value": "increase"} âm lượng
+    - [tăng]{"entity": "volume_direction", "value": "increase"} âm
+    - đặt âm lượng lên [cao]{"entity": "volume_direction", "value": "increase"}
+- intent: decrease_volume
+  examples: |
+    - giảm âm thanh xuống [giảm]{"entity": "volume_direction", "value": "decrease"}
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm lượng
+    - [giảm]{"entity": "volume_direction", "value": "decrease"} âm thanh
+- intent: increase_speed
+  examples: |
+    - độc nhanh lên
+    - đọc [nhanh]{"entity": "speed_direction", "value": "increase"} hơn
+    - [tăng]{"entity": "speed_direction", "value": "increase"} tốc độ
+    - đặt tốc độ đọc [lên cao]{"entity": "speed_direction", "value": "increase"}
+- intent: decrease_speed
+  examples: |
+    - [giảm]{"entity": "speed_direction", "value": "decrease"} tốc độ
+    - đọc từ từ thôi
+    - giảm tốc độ đọc [xuống thấp]{"entity": "speed_direction", "value": "decrease"}
+    - độc chậm thôi
+    - [giảm]{"entity": "speed_direction", "value": "decrease"} tốc độ đọc
+    - đọc [chậm]{"entity": "speed_direction", "value": "decrease"} hơn
+- intent: bye
+  examples: |
+    - hẹn gặp lại
+    - dừng lại
+    - đủ rồi
+    - bye
+    - tạm biệt nhé
+    - tôi sẽ quay lại sau
+    - bai
+    - tạm biệt
+- intent: greet
+  examples: |
+    - có ai ở đó không?
+    - chào buổi sáng
+    - chào cậu
+    - chào nhé
+    - chào bạn
+    - he lô
+    - hello
+    - cho mình hỏi
+    - có ai online không?
+    - chào
+    - xin chào
+- intent: help_general
+  examples: |
+    - cần bạn giúp đỡ về điều gì đó
+    - giúp tôi giải quyết một vấn đề
+    - giúp tôi với
+    - tôi yêu cầu bạn làm được gì
+    - giúp tôi với một số thông tin
+    - tôi cần một số hỗ trợ
+    - giờ làm gì giờ
+    - tôi muốn biết cách sử dụng bạn
+    - bạn làm được hành động nào
+    - bạn có thể làm việc gì cho tôi
+    - bạn có thể giúp tôi như thế nào
+    - bạn làm được gì
+- intent: latest_news
+  examples: |
+    - cho tôi biết tin mới nhất
+    - tin nóng nhất hiện nay là gì
+    - xem thời sự
+    - xem tin nóng nhất
+    - thời sự có gì mới
+    - hiện tin tức mới
+    - có tin hot không
+    - tôi muốn cập nhật tin tức
+    - cho tôi xem tin mới
+    - thời sự gần đây
+    - thời sự thú vị
+    - những tin tức mới nhất
+    - mở trang tin tức nào đó
+    - đưa tôi đến trang tin tức
+    - bản tin mới nhất
+    - tôi muốn xem tin tức mới nhất
+- intent: search
+  examples: |
+    - có gì mới về [thời trang nam](search_object) mùa hè
+    - tìm kiếm thông tin về [vụ tai nạn xe buýt gần đây](search_object)
+    - tìm kiếm [vụ cháy rừng gần đây](search_object)
+    - [động vật quý hiếm năm 2023](search_object) tin tức
+    - có tin gì về [tổng thống mới của Mỹ chưa](search_object)
+    - thông tin về [diễn viên hài](search_object) nổi tiếng
+    - có [kỹ thuật số](search_object) mới không?
+    - tìm hiểu về [văn hóa ẩm thực](search_object) Việt Nam
+    - tin tức về [động vật quý hiếm](search_object) 2023
+    - tìm kiếm thông tin về [dự án năng lượng tái tạo](search_object)
+    - tìm hiểu về [các bước nấu ăn nhanh](search_object)
+    - cho tôi biết về [sự kiện thể thao nổi bật](search_object)- tin tức về [ngôi sao âm nhạc](search_object) hôm nay
+    - tin tức về [covid-19](search_object) trong ngày
+    - tìm kiếm [hình ảnh thiên nhiên đẹp](search_object)
+    - có tin tức mới về [động đất](search_object) không
+    - có gì mới về [thời trang](search_object)
+    - tìm hiểu [cách làm các bước nấu ăn nhanh](search_object)
+    - có [tin tức về động đât](search_object) không?
+    - tin tức [khoa học](search_object) mới nhất
+- synonym: increase
+  examples: |
+    - tăng
+    - cao
+    - nhanh
+    - lên cao
+- synonym: decrease
+  examples: |
+    - giảm
+    - chậm
+    - xuống thấp
